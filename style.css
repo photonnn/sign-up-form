@@ -5,21 +5,21 @@
 }
 
 .left {
-    background-color: blue;
+    background: url("Assets/background.jpg") no-repeat;
+    background-size: 100%;
+    flex: auto;
 }
 
 .right {
     background-color: red;
+    flex: 1.5 auto;
 }
 
-.left, .right {
-    flex: auto;
-}
 body {
     display: flex;
     flex-direction: row;
 }
 
-body, html, .left, .right {
+body, html {
     height: 100%;
 }
