@@ -1,0 +1,8 @@
+Purpose of this text file is to journal my decisions partaking in this project.
+
+1)
+
+The web page will follow a design, that is include in the assets folder.
+
+Following the design, I will create 2 divs  and use flexbox to divide the 
+screen in two areas. I will tackle left side first as it seems simpler.

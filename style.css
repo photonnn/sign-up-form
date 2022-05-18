@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    background-color: blue;
+}
+
+.right {
+    background-color: red;
+}
+
+.left, .right {
+    flex: auto;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+body, html, .left, .right {
+    height: 100%;
+}
