@@ -1,15 +1,24 @@
 Purpose of this text file is to journal my decisions partaking in this project.
 
-1)
+1. Foundations:
 
 The web page will follow a design, that is include in the assets folder.
 
 Following the design, I will create 2 divs  and use flexbox to divide the 
 screen in two areas. I will tackle left side first as it seems simpler.
 
-2) 
+2. Setting image as background: 
 
 The background of the left side is an image, therefore I will make its width
 the same as the width of the image.
 Image is way to big so I decided to just use background-size to fit it in the
 container. I will for, now let right side grow more.
+
+3) Logo and text above image:
+
+The first div will contain the logo and name and it will be placed on top of the
+image. To do this, I will set image div as postion relative and logo div as 
+position absolute. I'll use vh and then make a seperate media query for the 
+mobile.
+
+
