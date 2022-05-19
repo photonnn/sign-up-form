@@ -21,19 +21,19 @@ html {
 
 .left {
     background: url("Assets/background.jpg") no-repeat;
-    background-size: 100vh;
+    background-position: center;
+    background-size: cover;
     flex: auto;
-    position: relative;
 }
 
 .logo {
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 15%;
     background-color: rgba(0, 0, 0, 0.477);
-    height: 15vh;
+    height: max(15vh, 60px);;
     color: white;
-    font-size: 12vh;
+    font-size: max(12vh, 50px);
     font-family: norse-bold;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ html {
 }
 
 .left img {
-    height: 15vh;
+    height: max(15vh, 60px);
 }
 
 .right {

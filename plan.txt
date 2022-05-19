@@ -21,4 +21,9 @@ image. To do this, I will set image div as postion relative and logo div as
 position absolute. I'll use vh and then make a seperate media query for the 
 mobile.
 
+Just noticed that it is not necessary to make image to position realtive, as it
+part of the background, therefore absolute can be replaced by relative for the 
+text on top. Also just noticed, that if you put dev tools on the bottom, the 
+height of the text does not scale properly, have to fix that.
+
 
