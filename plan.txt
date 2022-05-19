@@ -14,7 +14,7 @@ the same as the width of the image.
 Image is way to big so I decided to just use background-size to fit it in the
 container. I will for, now let right side grow more.
 
-3) Logo and text above image:
+3. Logo and text above image:
 
 The first div will contain the logo and name and it will be placed on top of the
 image. To do this, I will set image div as postion relative and logo div as 
@@ -29,5 +29,16 @@ height of the text does not scale properly, have to fix that.
 Was just working on footer and I recognised that it is the easiest way to just,
 make it absolute and use bottom: 0 to set it as footer, therefore I made left 
 div relative again.
+
+4. Right side:
+
+It will have 3 divs, above, form and below. Above and below are pretty straight
+forward, but form is a bit more complicated. Form includes 6 buttons, so I will
+have to be careful that it does not break when I resize and I will have to add
+pseudo-classes for focus and unchecked (I believe it is called).
+
+Was planning to have each div have its own overflow, but now I've just realised
+that does not really make any sense. I'll try to make only one scroll for right
+side and keep the left side the same.
 
 
