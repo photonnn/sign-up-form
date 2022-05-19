@@ -26,4 +26,8 @@ part of the background, therefore absolute can be replaced by relative for the
 text on top. Also just noticed, that if you put dev tools on the bottom, the 
 height of the text does not scale properly, have to fix that.
 
+Was just working on footer and I recognised that it is the easiest way to just,
+make it absolute and use bottom: 0 to set it as footer, therefore I made left 
+div relative again.
+
 

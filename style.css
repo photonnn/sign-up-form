@@ -24,6 +24,8 @@ html {
     background-position: center;
     background-size: cover;
     flex: auto;
+    position: relative;
+    max-width: 50%;
 }
 
 .logo {
@@ -44,7 +46,20 @@ html {
     height: max(15vh, 60px);
 }
 
+.footer {
+    font-size: calc(2vh + 0.5em);
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
 .right {
     background-color: red;
-    flex: 1.4 auto;
+    flex: 1.6 auto;
 }
