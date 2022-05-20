@@ -29,7 +29,7 @@
                 You <span>know</span> you want to.
             </p>
         </div>
-        <form action="" method="get">
+        <form id="form" action="" method="get">
             <p>Let's do this!</p>
             <div>
                 <label for="first_name">FIRST NAME</label>
@@ -43,7 +43,7 @@
 
             <div>
                 <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
+                <input spellcheck="false" type="email" name="email" id="email">
             </div>
 
             <div>
@@ -54,6 +54,7 @@
             <div>
                 <label for="password">PASSWORD</label>
                 <input type="password" name="password" id="password" required>
+                <p id="input_error">* Password required</p>
             </div>
 
             <div>
@@ -63,13 +64,11 @@
             </div>
         </form>
         <div class="below">
-            <p>THIS TEXT IS EVIL=?
-                idjdwaiwDI
-                wawajiw
-                wacawipicjpacjwašocjwapocawpoc
-            </p>
+            <button form="form" type="submit">Create Account</button><br>
+            <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

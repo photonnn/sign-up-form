@@ -41,4 +41,19 @@ Was planning to have each div have its own overflow, but now I've just realised
 that does not really make any sense. I'll try to make only one scroll for right
 side and keep the left side the same.
 
+New day. I seem to have realised a few downsides of writing my thoughts like 
+this, namely with it being somewhat unnecessary. I recognise that if I were to 
+write JavaScript or solve problems having a document like this would be really
+useful, but when doing html & css it becomes kind of reduntant. I say this 
+because the logic behind html & css is elementary, the difficult part is 
+implementing it. To do that you need to understand how things work, while you 
+can just brute force with your editor and google, I feel that in that situation
+a document like this would come into play, but all I am doing this writing a 
+really generalised view of how I will tackle the problems. I recognise that if 
+this were JavaScript or similar as mentioned before document like this, to write
+things beforehand is useful, but now I seem to think that for html & css it may
+be better to write things afterward after going to tribulations, having
+recognised, what the optimal play is, that I have been able to deduce. I'll keep
+on experimenting both here and in my mind.
+
 
