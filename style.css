@@ -95,7 +95,7 @@ html {
     font-style: italic;
 }
 
-form div label{
+form div label {
     display: block;
     font-size: calc(85%);
 }
@@ -115,7 +115,7 @@ form div input:focus {
 
 form div {
     width: 50%;
-    height: 28%;
+    height: calc(25%-40px);
     text-align: left;
     font-size: clamp(2vh, 1rem + 1vh, 4vh);
     color: rgb(32, 32, 32);
@@ -124,10 +124,11 @@ form div {
 form p {
     display: block;
     width: 100%;
-    height: 25%;
+    height: calc(25%-40px);
     display: flex;
     font-size: clamp(2.5vh, 1rem + 1vh, 6vh);
     font-weight: bold;
+    white-space: pre-line;
 }
 
 form div p {
@@ -143,10 +144,13 @@ form {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 2% 5%;
+    row-gap: 30%;
 }
 
-#password:invalid, #confirm_pass:invalid, .invalid {
+#password:invalid,
+#confirm_pass:invalid,
+.invalid {
     border: var(--error-border) solid 0.3vh;
 }
 
@@ -182,17 +186,30 @@ form {
     scrollbar-color: var(--dark-gray) var(--light-gray);
 }
 
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-    width: 12px;
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
 }
 
-*::-webkit-scrollbar-track {
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dark-gray);
+    border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #3f3e3f;
+}
+
+::-webkit-scrollbar-track {
     background: var(--light-gray);
+    border: 0px none #ffffff;
 }
 
-*::-webkit-scrollbar-thumb {
-    background-color: var(--dark-gray);
-    border-radius: 10px;
-    border: 3px solid var(--light-gray);
+::-webkit-scrollbar-corner {
+    background: transparent;
 }
