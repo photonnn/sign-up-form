@@ -178,38 +178,3 @@ form {
     padding: 5%;
     flex: 1 auto;
 }
-
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
-    scrollbar-width: auto;
-    scrollbar-color: var(--dark-gray) var(--light-gray);
-}
-
-::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
-}
-
-::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--dark-gray);
-    border: 0px none #ffffff;
-}
-
-::-webkit-scrollbar-thumb:active {
-    background: #3f3e3f;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--light-gray);
-    border: 0px none #ffffff;
-}
-
-::-webkit-scrollbar-corner {
-    background: transparent;
-}
