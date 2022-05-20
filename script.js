@@ -2,8 +2,9 @@ const pass1 = document.getElementById("password");
 const pass2 = document.getElementById("confirm_pass");
 
 const input_error_text = document.getElementById("input_error");
+const btn = document.getElementsByTagName("button");
 
-document.addEventListener("input", () => {
+btn[0].addEventListener("input", () => {
     if (pass1.value !== pass2.value) {
         pass1.classList.add("invalid");
         pass2.classList.add("invalid");   

@@ -97,14 +97,14 @@ html {
 
 form div label {
     display: block;
-    font-size: calc(85%);
+    font-size: max(2vh, 0.9rem);
 }
 
 form div input {
-    height: max(4vh, 0.7rem);
+    height: max(4vh, 1rem);
     width: 75%;
     border: var(--light-gray) solid 0.3vh;
-    font-size: max(3vh, 0.3rem);
+    font-size: max(3vh, 0.7rem);
     border-radius: 4px;
 }
 
@@ -119,6 +119,9 @@ form div {
     text-align: left;
     font-size: clamp(2vh, 1rem + 1vh, 4vh);
     color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 form p {
@@ -145,7 +148,6 @@ form {
     align-items: center;
     flex-wrap: wrap;
     padding: 2% 5%;
-    row-gap: 30%;
 }
 
 #password:invalid,
@@ -178,3 +180,48 @@ form {
     padding: 5%;
     flex: 1 auto;
 }
+
+@media only screen and (max-width: 1000px) {
+    body {
+        flex-direction: column;
+        overflow-y: auto;
+        text-align: center;
+    }
+    
+    .left {
+        max-width: 100%;
+        min-height: 50%;
+    }
+
+    .right {
+        max-width: 100%;
+        overflow-y: initial;
+    }
+
+    form div, form p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    form div input {
+        text-align: center;
+    }
+
+    form div {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .below {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .below button {
+        width: 60%;
+    }
+  }

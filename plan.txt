@@ -56,4 +56,7 @@ be better to write things afterward after going to tribulations, having
 recognised, what the optimal play is, that I have been able to deduce. I'll keep
 on experimenting both here and in my mind.
 
+After adding a media query for mobile I realised I should have added
+responsiveness after finishing the website, now I feel I have wasted time.
+
 
